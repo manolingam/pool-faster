@@ -1,0 +1,32 @@
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+}
+
+#app-logo {
+	position: absolute;
+	top: 1rem;
+	left: 0;
+}
+
+.sub-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.sub-container .button {
+	min-width: 70%;
+	margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+	#app-logo {
+		width: 100px;
+	}
+}
