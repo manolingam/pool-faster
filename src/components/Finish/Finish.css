@@ -12,3 +12,9 @@
 .finish p {
 	max-width: 80%;
 }
+
+@media only screen and (max-width: 400px) {
+	.finish img {
+		width: 150px;
+	}
+}

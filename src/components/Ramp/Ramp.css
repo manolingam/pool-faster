@@ -25,4 +25,13 @@
 	#address {
 		max-width: 70%;
 	}
+	.on-ramp img {
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.on-ramp img {
+		width: 150px;
+	}
 }

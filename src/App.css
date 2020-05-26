@@ -174,3 +174,18 @@ li p {
 		font-size: 1rem;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.sub-container img {
+		width: 250px;
+	}
+	.pool-intro p {
+		font-size: 0.7rem;
+	}
+	.is-medium {
+		font-size: 1rem;
+	}
+	.next {
+		margin-top: 20px;
+	}
+}
